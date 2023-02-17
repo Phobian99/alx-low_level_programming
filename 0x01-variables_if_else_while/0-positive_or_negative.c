@@ -8,7 +8,9 @@
  *Return 0 (Success)
  */
 
-int main (void)
+int main(void)
+
+//main - main entry
 {
 
 int n;
