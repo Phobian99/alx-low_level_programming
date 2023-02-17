@@ -11,7 +11,7 @@
 int main(void)
 
 {
-//main - starting point
+//Program is a simple implementation of a calculator that can perform basic arithmetic operations
 }
 
 int n;
