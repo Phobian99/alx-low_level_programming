@@ -7,11 +7,12 @@
 int main(void)
 
 {
-	char = Y
-		Y = 'a'
-	while (Y <= 'z');
-		putchar (Y);
-		Y++;
+	char Y;
+
+	for(Y = 'a';Y <= 'z';Y++);
+{
+	putchar (Y);
+}
 	putchar ("\n");
 	return (0);
 }
