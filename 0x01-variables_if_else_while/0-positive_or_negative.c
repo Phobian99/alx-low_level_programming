@@ -11,9 +11,7 @@
 int main(void)
 
 {
-//Program is a simple implementation of a calculator that can perform basic arithmetic operations
-}
-
+	
 int n;
 srand(time(0));
 
