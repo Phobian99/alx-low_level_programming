@@ -11,6 +11,8 @@
 int main(void)
 
 {
+//main - starting point
+}
 
 int n;
 srand(time(0));
