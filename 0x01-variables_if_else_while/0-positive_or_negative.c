@@ -4,7 +4,6 @@
 
 /**
  *main - Entry of program
- *Program checks if the value stored in the variable n is positive or negative
  *Return 0 (Success)
  */
 
