@@ -9,10 +9,8 @@
  */
 
 int main(void)
-
-//main - main entry
 {
-
+}
 int n;
 srand(time(0));
 
