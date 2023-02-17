@@ -10,7 +10,7 @@
 
 int main(void)
 {
-//main - Entry of program
+
 int n;
 srand(time(0));
 
