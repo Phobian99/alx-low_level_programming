@@ -12,6 +12,4 @@ void print_alphabet(void)
 		putchar(g);
 	}
 	putchar('\n');
-
-	return(0);
 }
