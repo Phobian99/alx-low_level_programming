@@ -2,6 +2,6 @@
 #define PUTCHAR_HEADER_H
 
 int putchar(int c);
+void print_alphabet(void);
 
 #endif
-void print_alphabet(void);
