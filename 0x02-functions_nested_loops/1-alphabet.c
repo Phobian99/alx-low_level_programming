@@ -4,7 +4,7 @@
  *
  * Return: 0 (success)
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char g;	
 	putchar(g = 'a'; g <= z; g++)
