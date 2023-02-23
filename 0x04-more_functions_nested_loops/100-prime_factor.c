@@ -1,45 +1,48 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
- * main - entry point
+ * print_times_table - print the time tables
+ *@n: the tested number
  *
- * Return: Always 0 (Success)
+ * Return: the time tables from 0 to n
  */
-int main(void)
+void print_times_table(int n)
 {
-	factor_prime(1231952);
-	return (0);
-}
+	int multi, row, col, cents, tens, units;
 
-/**
- * factor_prime - prints the prime factors of a number
- * @n: number
- */
-
-void factor_prime(long n)
-{
-	int i, x, count, res;
-
-	for (i = n - 1; i > 0; i--)
+	for (row = 0; row <= n; row++)
 	{
-		count = 0;
-		x = 1;
-		while (x <= i)
+		for (col = 0; col <= n; col++)
 		{
-			if (i % x == 0 && i > 1)
-				count++;
-			x++;
-		}
-		if (count <= 2)
-		{
-			if (n % i == 0)
+			if (n <= 15 && n >= 0)
 			{
-				res = i;
-				printf("%d ", res);
-				break;
+				multi = row * col;
+				cents = multi / 100;
+				tens = (multi / 10) % 10;
+				units = multi % 10;
+				if (col == 0)
+				{
+					_putchar('0'); }
+				else
+				{
+					if (multi > 99)
+						_putchar(cents + '0');
+					else
+						_putchar(' ');
+					if (multi > 9)
+						_putchar(tens + '0');
+					else
+						_putchar(' ');
+
+					_putchar(units + '0');
+				}
+				if (col < n)
+				{
+					_putchar(',');
+					_putchar(' '); }
+				else
+				{
+					_putchar('\n'); }
 			}
 		}
 	}
-	printf("\n");
 }
