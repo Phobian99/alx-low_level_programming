@@ -6,7 +6,7 @@
  * @b: b - variable
  * Return: Always 0.
  */
-int _isdigit(int c)
+int mul(int a, int b)
 {
 	int (a);
 	int (b);
