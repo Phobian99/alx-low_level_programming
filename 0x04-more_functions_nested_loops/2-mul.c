@@ -12,12 +12,6 @@ int _isdigit(int c)
 	int (b);
 	int (c);
 
-	int c = a*b
-		return (C);
-
-
-
-
-
-
-}
+	int c = a * b;
+		return (c);
+		
