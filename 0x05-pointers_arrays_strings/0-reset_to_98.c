@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check the code
+ * *n - a function that takes a pointer to an int
  *
  * Return: Always 0.
  */
