@@ -1,4 +1,4 @@
-#include "main_h"
+#include "main.h"
 
 /**
  * _strlen - lenght of string
@@ -7,13 +7,13 @@
  */
 int _strlen(const char *s)
 {
-	int k;
+	int i;
 
-		for (k = 0; s[k] != '\0'; k++)
+		for (i = 0; s[i] != '\0'; i++)
 		{
 			continue;
 		}
-return (j);
+return (i);
 }
 /**
  * binary_to_uint - convert binary to unsigned int
@@ -23,8 +23,8 @@ return (j);
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int j = 1;
-	unsigned int k = 0;
+	unsigned int k = 1;
+	unsigned int i = 0;
 	int c;
 	unsigned int len;
 
@@ -39,9 +39,9 @@ unsigned int binary_to_uint(const char *b)
 		return (0);
 	if (b[c] == '1')
 	{
-		k += j;
+		i += k;
 	}
-	j *= 2;
+	k *= 2;
 }
-	return (k);
+	return (i);
 }
