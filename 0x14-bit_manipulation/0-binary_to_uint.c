@@ -7,13 +7,13 @@
  */
 int _strlen(const char *s)
 {
-	int i;
+	int x;
 
-		for (i = 0; s[i] != '\0'; i++)
+		for (x = 0; s[x] != '\0'; x++)
 		{
 			continue;
 		}
-return (i);
+return (x);
 }
 /**
  * binary_to_uint - convert binary to unsigned int
@@ -23,8 +23,8 @@ return (i);
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int k = 1;
-	unsigned int i = 0;
+	unsigned int y = 1;
+	unsigned int x = 0;
 	int c;
 	unsigned int len;
 
@@ -39,9 +39,9 @@ unsigned int binary_to_uint(const char *b)
 		return (0);
 	if (b[c] == '1')
 	{
-		i += k;
+		x += y;
 	}
-	k *= 2;
+	y *= 2;
 }
-	return (i);
+	return (x);
 }
