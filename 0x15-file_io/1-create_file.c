@@ -24,7 +24,7 @@ int create_file(const char *filename, char *text_content)
 	if (!text_content)
 		text_content = "";
 
-	for (nmoji = 0; text_content[nmoji]; nmoji++)
+	for (nemoji = 0; text_content[nemoji]; nemoji++)
 		;
 
 	rwr = write(fs, text_content, nemoji);
